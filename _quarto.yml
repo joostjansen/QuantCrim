@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "QuantCrime"
+  title: "QuantCrim"
   subtitle: "Een open-web handboek voor kwantitatief onderzoek"
   author: 
   - name: Joost Jansen

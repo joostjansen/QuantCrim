@@ -5,6 +5,9 @@ project:
 website:
   navbar:
     left:
+      - icon: github
+        href: https://github.com/joostjansen/QuantCrim
+        aria-label: GitHub
       - href: index.qmd
         text: Home
       - href: book.pdf
@@ -19,7 +22,9 @@ book:
   date: last-modified
   chapters:
     - index.qmd
+    part: "Benodigdheden"
     - 002-setup.qmd
+    part: "Beginselen"
 
 bibliography: references.bib
 

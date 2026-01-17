@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: "QuantCrim"
+  title: "quantcrim"
   subtitle: "Een open-web handboek voor kwantitatief onderzoek"
   author:
     - name: Joost Jansen
@@ -19,7 +19,7 @@ book:
 
   chapters:
     - index.qmd
-    - part: "Benodigdheden"
+    - part: "Voorbereiding"
       chapters:
         - 002-setup.qmd
 

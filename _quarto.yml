@@ -33,6 +33,7 @@ format:
     theme:
       light: cosmo
       dark: darkly
+    coda-link: true
   pdf:
     documentclass: scrreprt
 

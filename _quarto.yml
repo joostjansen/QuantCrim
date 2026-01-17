@@ -22,9 +22,9 @@ book:
   date: last-modified
   chapters:
     - index.qmd
-    part: "Benodigdheden"
-    - 002-setup.qmd
-    part: "Beginselen"
+    - part: "Benodigdheden"
+      chapters: 
+        - 002-setup.qmd
 
 bibliography: references.bib
 

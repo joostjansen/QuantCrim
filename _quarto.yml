@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "QuantcCrime"
+  title: "QuantCrime"
   subtitle: "Een open-web handboek voor kwantitatief onderzoek"
   author: 
   - name: Joost Jansen
@@ -11,7 +11,6 @@ book:
   chapters:
     - index.qmd
     - 002-setup.qmd
-    - references.qmd
 
 bibliography: references.bib
 

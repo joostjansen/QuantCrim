@@ -1,5 +1,14 @@
 project:
   type: book
+  output-dir: docs
+  
+website:
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: book.pdf
+        text: PDF
 
 book:
   title: "QuantCrim"

@@ -1,6 +1,8 @@
 # Voorwoord {.unnumbered}
 
-Dit is het QuantCrim handboek. Hier ga je leren hoe je kwantitatieve data kan analyseren met R. Hieronder vind je een voorbeeld van hoe makkelijk het is om data in te laden, een regressiemodel te schatten en de resultaten ervan te presenteren in een plot.^[We gaan in een later hoofdstuk zien wat een regressiemodel precies is.]
+Dit is het QuantCrim handboek. Hier ga je leren hoe je kwantitatieve data kan analyseren met R. Hieronder vind je een voorbeeld van hoe makkelijk het is om data in te laden, een regressiemodel te schatten en de resultaten ervan te presenteren in een plot.[^index-1]
+
+[^index-1]: We gaan in een later hoofdstuk zien wat een regressiemodel precies is.
 
 ```{r}
 
@@ -24,3 +26,9 @@ ggplot(Boston, aes(x = age, y = crim)) +
   geom_point() + 
   geom_smooth()
 ```
+
+## Hoe nu verder
+
+We hopen dat je dit boek handig vindt. In het kader van Open Science hebben we geprobeerd dit boek volledig transparant en reproduceerbaar te ontwikkelen. De broncode is beschikbaar via <https://github.com/joostjansen/QuantCrim>. Als je vragen, suggesties of aanpassingen hebt, aarzel niet deze te stellen.[^index-2]
+
+[^index-2]: Het beste is om dit via GitHub te doen in onze Repository.

@@ -6,23 +6,25 @@ Welkom bij het quantcrim handboek! Hier ga je leren hoe je kwantitatieve data ka
 
 ```{r}
 
-# load libraries and data
-library(MASS)
+# load libraries
 library(ggplot2) # this package needs to be installed in console
-data("Boston")
+library(readr)
+
+# import data
+data <- read_csv2("data/selfreport_delinquency_MT2.csv")
 
 # inspect dataframe
 knitr::kable(
-  Boston[1:5, ]
+  data[1:5, ]
 )
 
 # fit linear model 
-model1 <- lm(crim ~ indus, Boston)
-print(model1)
+model1 <- lm(crime_types ~ unsafe_nh, data)
+summary(model1)
 
 # plot w ggplot2
 #| column: margin
-ggplot(Boston, aes(x = age, y = crim)) +
+ggplot(data, aes(x = unsafe_nh, y = crime_types)) +
   geom_point() + 
   geom_smooth()
 ```

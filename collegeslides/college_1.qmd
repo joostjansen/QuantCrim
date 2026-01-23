@@ -1,5 +1,5 @@
 ---
-title: "collegeslides"
+title: "college week 1"
 format:
   revealjs:
     embed-resources: true

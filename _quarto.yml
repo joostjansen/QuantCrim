@@ -32,7 +32,9 @@ book:
     - part: "Colleges"
       chapters:
         - 003-colleges.qmd
-        
+    - part: "Opdrachten"
+      chapters: 
+        - 004-opdrachten.qmd
 license:
   text: "CC BY-NC 4.0"
   url: "https://creativecommons.org/licenses/by-nc/4.0/"
